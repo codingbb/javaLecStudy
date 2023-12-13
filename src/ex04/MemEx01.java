@@ -11,3 +11,5 @@ public class MemEx01 {
         System.out.println(Person1.gender);
     }
 }
+
+
