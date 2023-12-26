@@ -10,15 +10,21 @@ class Sports {
 }
 
 public class Soccer extends Sports {
-//    String getName() {
-//
-//    }
-//    int getPlayer() {
-//
-//    }
+    private String name = "축구";
+    private int member;
+
+    public Soccer(int member) {
+        this.member = member;
+    }
+    String getName() {
+        return name;
+    }
+    int getPlayer() {
+        return member;
+    }
 
     public static void main(String[] args) {
-        Sports sp = new Soccer();
-        System.out.println("경기이름 : " + " 경기자수");
+        Sports sp = new Soccer(11);
+        System.out.println("경기이름 : " + sp.getName() + " 경기자수 " + sp.getPlayer());
     }
 }
