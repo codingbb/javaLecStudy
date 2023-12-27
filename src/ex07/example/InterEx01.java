@@ -58,7 +58,6 @@ public class InterEx01 {
 
     public static void main(String[] args) {
         CommonRemocon cr = new CommonRemocon(new SamsungRemocon());
-        Remocon cr1 = new SamsungRemocon();
         cr.on();
 
     }
