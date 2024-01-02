@@ -34,6 +34,10 @@ public class ObEx01 {
             System.out.println("같아여?");
         }
 
+        if (account.equals(account2)) {
+            System.out.println("같아여?");
+        }
+
         if (account.toString().equals(account2.toString())) {
             System.out.println("같아여?");
         }
