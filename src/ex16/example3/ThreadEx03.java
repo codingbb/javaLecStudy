@@ -40,7 +40,7 @@ public class ThreadEx03 extends JFrame {
 
         //타겟(run 메소드) 넣어주기
         new Thread(() -> {
-            while (state) {
+            while (true) {
                 try {
                     Thread.sleep(1000);
                     count++;
@@ -51,8 +51,9 @@ public class ThreadEx03 extends JFrame {
             }
 
         }).start();
+
         new Thread(() -> {
-            while (state) {
+            while (true) {
                 try {
                     Thread.sleep(1000);
                     count2++;
