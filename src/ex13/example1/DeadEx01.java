@@ -1,7 +1,5 @@
 package ex13.example1;
 
-import ex07.A;
-
 class Account {
     private int balance = 1000;
 
